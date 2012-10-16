@@ -53,7 +53,7 @@ group :development do
     gem "rcov"
   end
   gem "spork"
-  gem "test-unit", "=1.2.3" if RUBY_VERSION >= "1.9"
+#  gem "test-unit", "=1.2.3" if RUBY_VERSION >= "1.9"
   gem "timecop"
 end
 
